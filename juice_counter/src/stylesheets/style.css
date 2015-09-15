@@ -94,7 +94,7 @@ h1 {
 }
 /* line 28, ../sass/style.scss */
 .header h1 {
-  font-style: italic;
+  font-style: inherit;
 }
 
 /* line 33, ../sass/style.scss */
@@ -107,4 +107,13 @@ h1 {
   border-radius: 75px;
   width: 150px;
   height: 150px;
+}
+
+/* line 40, ../sass/style.scss */
+h2 {
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  color: #969696;
+  margin-top: 60px;
 }

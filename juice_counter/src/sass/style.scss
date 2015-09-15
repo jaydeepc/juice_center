@@ -26,7 +26,7 @@ h1 {
     padding: 5em 0 14em;
 
     h1 {
-        font-style: italic;
+        font-style: inherit;
     }
 }
 
@@ -35,4 +35,13 @@ h1 {
     @include border-radius(75px); // half the avatar size
     width: 150px;
     height: 150px;
+}
+
+h2
+{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    color: #969696;
+    margin-top: 60px;
 }
